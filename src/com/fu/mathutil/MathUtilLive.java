@@ -22,7 +22,12 @@ public class MathUtilLive {
         System.out.println("expected: 6! = 720; actual: " + result1);
         System.out.println("expected: 0! = 720; actual: " + result2);
         //MathUtil.getFactorial(-5); -5 ngoại lệ
-        
+        // thêm CODE SAU LẦN ĐẦU TIÊN LÀM CHUYỆN ẤY _CODE LÊN SERVER 9-4-2021
+        System.out.println("expected: 1! = 1; actual: " + 
+                + MathUtil.getFactorial(1));
+        System.out.println("expected: 3! = 6; actual: " + 
+                + MathUtil.getFactorial(3));
+         
         // kĩ thuật kiểm thử phần mềm : ước lượng xem giá trị trả về của hàn là 
        // gì
        // expected value : 5! = 120
